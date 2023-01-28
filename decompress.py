@@ -13,5 +13,5 @@ pixels = image.getdata()
 bytes = bytes(pixels)
 
 # Write the bytes to a new file
-with open("compressed.jpg", "wb") as f:
+with open("filename.extension", "wb") as f:
     f.write(bytes)
